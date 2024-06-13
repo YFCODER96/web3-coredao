@@ -1,0 +1,22 @@
+{
+  "name": "web3-core",
+  "version": "1.0.0",
+  "main": "build/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node build/index.js"
+  },
+  "keywords": [],
+  "author": "远峰编程",
+  "license": "ISC",
+  "description": "此项目包含监听指定的地址的余额，以及转出到指定地址",
+  "devDependencies": {
+    "@types/node": "^20.14.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "web3": "^4.9.0"
+  }
+}
